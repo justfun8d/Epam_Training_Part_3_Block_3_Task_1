@@ -24,6 +24,8 @@ public class TaskController {
                 "Как можно быть здоровой... когда нравственно страдаешь? Разве можно, имея чувство, оставаться " +
                 "спокойною в наше время? — сказала Анна Павловна. — Вы весь вечер у меня, надеюсь?";
 
+        System.out.println(textLine);
+
         Text text=new Text(textLine);
 
         TaskLogic logic=new TaskLogic();

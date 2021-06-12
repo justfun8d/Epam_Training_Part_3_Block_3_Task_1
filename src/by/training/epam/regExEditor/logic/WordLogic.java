@@ -9,7 +9,7 @@ import java.util.List;
 public class WordLogic {
 
     public List<Word> toSortedWords(Text text){
-        //TODO toSortedWords
+        //TODO toSortedWords - в каждом предложении отсортировать слова по длине
         return new ArrayList<>();
     }
 }

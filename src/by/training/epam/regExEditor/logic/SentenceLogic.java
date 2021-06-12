@@ -9,7 +9,8 @@ import java.util.List;
 public class SentenceLogic {
 
     public List<Sentence> toSortedSentences(Text text){
-        //TODO toSortedSentences
+        //TODO toSortedSentences - отсортировать абзацы по количеству предложений
+        // +в каждом предложении отсортировать слова по длине
         return new ArrayList<>();
     }
 }

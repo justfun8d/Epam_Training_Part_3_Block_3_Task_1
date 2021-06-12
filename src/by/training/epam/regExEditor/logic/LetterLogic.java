@@ -9,12 +9,14 @@ import java.util.List;
 public class LetterLogic {
 
     public List<Letter> toSortedLetters(Text text){
-        //TODO toSortedLetters
+        //TODO toSortedLetters - отсортировать лексемы в предложении по убыванию количества вхождений заданного символа,
+        // а в случае равенства – по алфавиту.
         return new ArrayList<>();
     }
 
     public List<Letter> sortEqualLettersAlphabetically(List<Letter> letters){
-        //TODO sortEqualLettersAlphabetically
+        //TODO sortEqualLettersAlphabetically - отсортировать лексемы в предложении по убыванию количества вхождений
+        // заданного символа, а в случае равенства – по алфавиту.
         return new ArrayList<>();
     }
 }
