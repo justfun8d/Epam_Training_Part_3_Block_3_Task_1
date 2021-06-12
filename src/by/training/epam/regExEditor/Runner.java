@@ -1,11 +1,11 @@
 package by.training.epam.regExEditor;
 
-import by.training.epam.regExEditor.controller.RegExController;
+import by.training.epam.regExEditor.controller.TaskController;
 
 public class Runner {
 
     public static void main(String[] args) {
 
-        new RegExController().run();
+        new TaskController().run();
     }
 }
