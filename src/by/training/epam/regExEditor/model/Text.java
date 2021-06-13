@@ -2,7 +2,7 @@ package by.training.epam.regExEditor.model;
 
 public class Text {
 
-    String text;
+    private String text;
 
     public Text(){
         this.text="";
