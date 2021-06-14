@@ -5,6 +5,7 @@ import by.training.epam.regExEditor.model.Text;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -24,8 +25,17 @@ public class ParagraphLogic {
             paragraphs.add(new Paragraph(matcher.group()));
         }
 
-        Collections.sort(paragraphs);
+        paragraphs.sort(new Comparator<Paragraph>() {
+            @Override
+            public int compare(Paragraph p1, Paragraph p2) {
+                return Integer.compare(getCountSentences(p1), getCountSentences(p2));
+            }
+        });
 
         return new ArrayList<>();
+    }
+
+    public int getCountSentences(Paragraph paragraph){
+
     }
 }
